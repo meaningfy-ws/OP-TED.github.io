@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>TED API Documentation :: TED Developer Documentation</title>
+    <title>Untitled :: TED Developer Documentation</title>
     <link rel="canonical" href="https://docs.ted.europa.eu/api/index.html">
     <meta name="generator" content="Antora 3.1.2">
     <link rel="stylesheet" href="../_/css/site.css">
@@ -118,8 +118,20 @@
       <li class="component">
         <a class="title" href="../eforms/latest/index.html">eForms SDK</a>
         <ul class="versions">
+            <li class="version">
+              <a href="../eforms/1.9/index.html">1.9.0</a>
+            </li>
             <li class="version is-latest">
-              <a href="../eforms/latest/index.html">1.5.1</a>
+              <a href="../eforms/latest/index.html">1.8.0</a>
+            </li>
+            <li class="version">
+              <a href="../eforms/1.7/index.html">1.7.0</a>
+            </li>
+            <li class="version">
+              <a href="../eforms/1.6/index.html">1.6.0</a>
+            </li>
+            <li class="version">
+              <a href="../eforms/1.5/index.html">1.5.1</a>
             </li>
             <li class="version">
               <a href="../eforms/1.4/index.html">1.4.1</a>
@@ -142,7 +154,7 @@
         <a class="title" href="../EPO/latest/index.html">eProcurement Ontology</a>
         <ul class="versions">
             <li class="version">
-              <a href="../EPO/3.1.1/index.html">3.1.1 ~dev</a>
+              <a href="../EPO/4.0.0/index.html">4.0.0-rc.1</a>
             </li>
             <li class="version is-latest">
               <a href="../EPO/latest/index.html">3.1.0</a>
@@ -157,7 +169,7 @@
               <a href="../EPO/2.0.0/index.html">2.0.0</a>
             </li>
             <li class="version">
-              <a href="../EPO/1.0.0/index.html">1.0.0</a>
+              <a href="../EPO/1/index.html">1.0.0</a>
             </li>
         </ul>
       </li>
@@ -165,7 +177,13 @@
         <a class="title" href="../ESPD-EDM/latest/index.html">ESPD EDM</a>
         <ul class="versions">
             <li class="version is-latest">
-              <a href="../ESPD-EDM/latest/index.html">3.1.0</a>
+              <a href="../ESPD-EDM/latest/index.html">3.3.0</a>
+            </li>
+            <li class="version">
+              <a href="../ESPD-EDM/3.2.0/index.html">3.2.0</a>
+            </li>
+            <li class="version">
+              <a href="../ESPD-EDM/3.1.0/index.html">3.1.0</a>
             </li>
             <li class="version">
               <a href="../ESPD-EDM/3.0.1/index.html">3.0.1</a>
@@ -204,9 +222,19 @@
   <div class="toc-menu"></div>
 </aside>
 <article class="doc">
-<h1 class="page">TED API Documentation</h1>
-<div id="preamble">
-<div class="sectionbody">
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Please refrain from testing in the Production environment of eNotices2. This is reserved for notices that will be published in TED. TED Apps for eForms are available in the <a href="https://docs.ted.europa.eu/home/eforms/preview/index.html">Preview environment</a> for testing purposes. If you are an eSender, please note that URLs and API keys in "Production" and "Preview" environments are not interchangeable.
+</td>
+</tr>
+</table>
+</div>
+<h1 id="_ted_api_documentation" class="sect0"><a class="anchor" href="#_ted_api_documentation"></a>TED API Documentation</h1>
 <div class="paragraph">
 <p>TED API allows application developers to connect their 3rd party applications to the TED web services. Using TED APIs you can create applications that:</p>
 </div>
@@ -228,8 +256,6 @@
 </div>
 <div class="paragraph">
 <p>All TED APIs manipulating notices that are not yet published, require the \cas\logincaller to be authenticated with an API key.</p>
-</div>
-</div>
 </div>
 <div class="sect1">
 <h2 id="_api_keys"><a class="anchor" href="#_api_keys"></a>API keys</h2>

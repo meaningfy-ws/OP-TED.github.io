@@ -77,7 +77,7 @@
     </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="eforms" data-version="1.5">
+<div class="nav-container" data-component="eforms" data-version="1.8">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
@@ -195,6 +195,9 @@
     <a class="nav-link" href="../translations/index.html">Translations</a>
   </li>
   <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../schematrons/index.html">Schematron</a>
+  </li>
+  <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="../efx/index.html">EFX grammar</a>
 <ul class="nav-list">
@@ -271,14 +274,26 @@
 <div class="nav-panel-explore" data-panel="explore">
       <div class="context">
           <span class="title">eForms SDK</span>
-          <span class="version">1.5.1</span>
+          <span class="version">1.8.0</span>
       </div>
   <ul class="components">
       <li class="component is-current">
         <a class="title" href="../index.html">eForms SDK</a>
         <ul class="versions">
+            <li class="version">
+              <a href="../../1.9/index.html">1.9.0</a>
+            </li>
             <li class="version is-current is-latest">
-              <a href="../index.html">1.5.1</a>
+              <a href="../index.html">1.8.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.7/index.html">1.7.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.6/index.html">1.6.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.5/index.html">1.5.1</a>
             </li>
             <li class="version">
               <a href="../../1.4/index.html">1.4.1</a>
@@ -301,7 +316,7 @@
         <a class="title" href="../../../EPO/latest/index.html">eProcurement Ontology</a>
         <ul class="versions">
             <li class="version">
-              <a href="../../../EPO/3.1.1/index.html">3.1.1 ~dev</a>
+              <a href="../../../EPO/4.0.0/index.html">4.0.0-rc.1</a>
             </li>
             <li class="version is-latest">
               <a href="../../../EPO/latest/index.html">3.1.0</a>
@@ -316,7 +331,7 @@
               <a href="../../../EPO/2.0.0/index.html">2.0.0</a>
             </li>
             <li class="version">
-              <a href="../../../EPO/1.0.0/index.html">1.0.0</a>
+              <a href="../../../EPO/1/index.html">1.0.0</a>
             </li>
         </ul>
       </li>
@@ -324,7 +339,13 @@
         <a class="title" href="../../../ESPD-EDM/latest/index.html">ESPD EDM</a>
         <ul class="versions">
             <li class="version is-latest">
-              <a href="../../../ESPD-EDM/latest/index.html">3.1.0</a>
+              <a href="../../../ESPD-EDM/latest/index.html">3.3.0</a>
+            </li>
+            <li class="version">
+              <a href="../../../ESPD-EDM/3.2.0/index.html">3.2.0</a>
+            </li>
+            <li class="version">
+              <a href="../../../ESPD-EDM/3.1.0/index.html">3.1.0</a>
             </li>
             <li class="version">
               <a href="../../../ESPD-EDM/3.0.1/index.html">3.0.1</a>
@@ -358,9 +379,13 @@
   </ul>
 </nav>
 <div class="page-versions">
-  <button class="version-menu-toggle" title="Show other versions of page">1.5.1</button>
+  <button class="version-menu-toggle" title="Show other versions of page">1.8.0</button>
   <div class="version-menu">
-    <a class="version is-current" href="all-in-one.html">1.5.1</a>
+    <a class="version" href="../../1.9/schema/all-in-one.html">1.9.0</a>
+    <a class="version is-current" href="all-in-one.html">1.8.0</a>
+    <a class="version" href="../../1.7/schema/all-in-one.html">1.7.0</a>
+    <a class="version" href="../../1.6/schema/all-in-one.html">1.6.0</a>
+    <a class="version" href="../../1.5/schema/all-in-one.html">1.5.1</a>
     <a class="version" href="../../1.4/schema/all-in-one.html">1.4.1</a>
     <a class="version" href="../../1.3/schema/all-in-one.html">1.3.2</a>
     <a class="version" href="../../1.2/schema/all-in-one.html">1.2.1</a>
@@ -380,7 +405,7 @@
 <div class="sectionbody">
 <div class="paragraph">
 <p>This document refers to the provisional version of the eForms schemas
-published as part of the SDK 1.5.</p>
+published as part of the SDK 1.8.</p>
 </div>
 <div class="paragraph">
 <p>The schemas and the documentation can still be subject to changes. They
@@ -1098,7 +1123,7 @@ subtype value corresponds to the column number.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-middle" rowspan="7"><p class="tableblock">Competition</p></td>
-<td class="tableblock halign-center valign-middle" rowspan="3"><p class="tableblock">PIN</p></td>
+<td class="tableblock halign-center valign-middle" rowspan="2"><p class="tableblock">PIN</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">PIN CFC general</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">10-11</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Prior information notice, or periodic indicative notice, used as a call for competition&#8201;&#8212;&#8201;standard regime</p></td>
@@ -1109,12 +1134,12 @@ subtype value corresponds to the column number.</p>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Prior information notice, or periodic indicative notice, used as a call for competition&#8201;&#8212;&#8201;light regime</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-center valign-middle" rowspan="5"><p class="tableblock">CN</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">QS</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">15</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Notice on the existence of a qualification system</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-center valign-middle" rowspan="4"><p class="tableblock">CN</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">CN general</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">16-19</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Contract, or concession, notice&#8201;&#8212;&#8201;standard regime</p></td>
@@ -1511,9 +1536,6 @@ to changes (e.g. a <em>Change Notice</em> for a change applied to an existing
 <li>
 <p>PIN CFC social</p>
 </li>
-<li>
-<p>QS</p>
-</li>
 </ul>
 </div></div></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">PriorInformationNotice</p></td>
@@ -1522,6 +1544,9 @@ to changes (e.g. a <em>Change Notice</em> for a change applied to an existing
 <th class="tableblock halign-left valign-middle"><p class="tableblock">Contract Notice</p></th>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="ulist">
 <ul>
+<li>
+<p>QS</p>
+</li>
 <li>
 <p>CN general</p>
 </li>
@@ -1639,19 +1664,19 @@ namespaces and schema versioning is provided below.</p>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>efext</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://eforms/v1.0/Extensions" class="bare">http://eforms/v1.0/Extensions</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://data.europa.eu/p27/eforms-ubl-extensions/1" class="bare">http://data.europa.eu/p27/eforms-ubl-extensions/1</a></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Covers all eForms specific
 extension components</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>efac</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://eforms/v1.0/ExtensionAggregateComponents" class="bare">http://eforms/v1.0/ExtensionAggregateComponents</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" class="bare">http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1</a></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Covers all
 eForms specific extension aggregate components</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>efbc</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://eforms/v1.0/ExtensionBasicComponents" class="bare">http://eforms/v1.0/ExtensionBasicComponents</a></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" class="bare">http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1</a></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Covers all eForms
 specific extension basic components</p></td>
 </tr>
@@ -4288,7 +4313,7 @@ more)</em></p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock">&#8201;&#8212;&#8201;</p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">cac:LotDistribution&#8203;/cac:LotsGroup&#8203;/cbc:ID</code></pre>
+<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">cac:LotDistribution&#8203;/cac:LotsGroup&#8203;/cbc:LotsGroupID</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -5342,10 +5367,11 @@ codelist.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>The nodes that encapsulate the Award Criteria and Award Criterion information (i.e. cac:AwardingCriterion and
-cac:SubordinateAwardingCriterion respectively) are both repeatable. An Award Criteria shall contain each and every
-Award Criterion used for score computation so that expressed weighting may be properly understood and, in case
-percentage is used, the 100% rule verified (i.e. sum of the weighting percentages shall equal 100%).</p>
+<p>The node that encapsulates the Award Criterion information (i.e. cac:SubordinateAwardingCriterion)
+is repeatable. For a given Lot or Group of lots, Award Criteria (i.e. cac:AwardingCriterion) is not
+repeatable and shall contain each and every Award Criterion used for score computation so that
+expressed weighting may be properly understood and, in case percentage is used, the 100% rule
+verified (i.e. sum of the weighting percentages shall equal 100%).</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -5436,7 +5462,7 @@ within that Award Criteria no Award Criterion with Award Criterion Number Weight
                 &lt;ext:ExtensionContent&gt;
                     &lt;efext:EformsExtension&gt;
                         &lt;efac:AwardCriterionParameter&gt;
-                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-pass&lt;/efbc:ParameterCode&gt;
+                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-score&lt;/efbc:ParameterCode&gt;
                             &lt;efbc:ParameterNumeric&gt;50&lt;/efbc:ParameterNumeric&gt;
                         &lt;/efac:AwardCriterionParameter&gt;
                         &lt;efac:AwardCriterionParameter&gt;
@@ -5451,7 +5477,7 @@ within that Award Criteria no Award Criterion with Award Criterion Number Weight
         &lt;cbc:Name languageID="ENG"&gt;Fair and realistic price&lt;/cbc:Name&gt;
         &lt;cbc:Name languageID="FRA"&gt;Prix équitable et réaliste&lt;/cbc:Name&gt;
         &lt;cbc:Description languageID="ENG"&gt;Tenders with a price score lower than 50 ...&lt;/cbc:Description&gt;
-        &lt;cbc:Description languageID="FRA"&gt;Les offres avec un score sur les prix infèrieur ...&lt;/cbc:Description&gt;
+        &lt;cbc:Description languageID="FRA"&gt;Les offres avec un score sur les prix inférieur ...&lt;/cbc:Description&gt;
     &lt;/cac:SubordinateAwardingCriterion&gt;
     &lt;cac:SubordinateAwardingCriterion&gt;
         &lt;ext:UBLExtensions&gt;
@@ -5459,7 +5485,7 @@ within that Award Criteria no Award Criterion with Award Criterion Number Weight
                 &lt;ext:ExtensionContent&gt;
                     &lt;efext:EformsExtension&gt;
                         &lt;efac:AwardCriterionParameter&gt;
-                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-pass&lt;/efbc:ParameterCode&gt;
+                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-score&lt;/efbc:ParameterCode&gt;
                             &lt;efbc:ParameterNumeric&gt;65&lt;/efbc:ParameterNumeric&gt;
                         &lt;/efac:AwardCriterionParameter&gt;
                         &lt;efac:AwardCriterionParameter&gt;
@@ -5474,7 +5500,7 @@ within that Award Criteria no Award Criterion with Award Criterion Number Weight
         &lt;cbc:Name languageID="ENG"&gt;Technical merit&lt;/cbc:Name&gt;
         &lt;cbc:Name languageID="FRA"&gt;Mérite technique&lt;/cbc:Name&gt;
         &lt;cbc:Description languageID="ENG"&gt;Tenders with a quality score lower than 65 ...&lt;/cbc:Description&gt;
-        &lt;cbc:Description languageID="FRA"&gt;Les offres avec un score qualité infèrieur ...&lt;/cbc:Description&gt;
+        &lt;cbc:Description languageID="FRA"&gt;Les offres avec un score qualité inférieur ...&lt;/cbc:Description&gt;
     &lt;/cac:SubordinateAwardingCriterion&gt;
 &lt;/cac:AwardingCriterion&gt;</code></pre>
 </div>
@@ -6623,18 +6649,15 @@ element</strong></p></td>
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">/ContractAwardNotice&#8203;/cac:TenderingProcess&#8203;/
 
-/ContractAwardNotice&#8203;/cac:ProcurementProjectLot&#8203;/cac:TenderingProcess&#8203;/
-
-(**)
-[source,xpath,subs=attributes]</code></pre>
+/ContractAwardNotice&#8203;/cac:ProcurementProjectLot&#8203;/cac:TenderingProcess&#8203;/</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>/ContractAwardNotice&#8203;/cac:ProcurementProjectLot&#8203;/cac:TenderingProcess&#8203;/</p>
+<p>(**)</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre></pre>
+<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">/ContractAwardNotice&#8203;/cac:ProcurementProjectLot&#8203;/cac:TenderingProcess&#8203;/</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -6650,10 +6673,13 @@ the process will be restarted.</p>
 <div class="paragraph">
 <p>The "<em>efbc:ProcedureRelaunchIndicator</em>" element shall only be used when
 "true"; when it applies to the whole procurement, it shall appear in the
-"<em>cac:TenderingProcess</em>" of the notice (i.e. at notice level) only.
-When applied to a Lot, all the individual Lots included in a Group of
-Lots with that same Lot shall be marked as such, and Group of Lots
-containing the Lot, shall not exist anymore.</p>
+"<em>cac:TenderingProcess</em>" of the notice (i.e. at notice level) only.</p>
+</div>
+<div class="paragraph">
+<p>When applied to a Lot that is included in a Group of Lots defined in
+preceding notices of the same procedure, all the individual Lots included
+in that Group of Lots shall be marked as such, and that Group of Lots
+shall not exist in the current notice.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -6681,7 +6707,7 @@ communication.</p>
 </div>
 <div class="paragraph">
 <p>This optional Business Term is to be used, for PIN and CN notices only, in
-conjunction with BT-724 &amp; BT-124. It shall be marked using the extension
+conjunction with BT-124. It shall be marked using the extension
 mechanism at the level of the "<em>cac:TenderingProcess</em>" element of the
 Lot or Part it applies to.</p>
 </div>
@@ -6980,8 +7006,8 @@ additional information is encoded as follows:</p>
 <div class="sect3">
 <h4 id="previousNoticeSection"><a class="anchor" href="#previousNoticeSection"></a>8.4.17. Previous Notice (OPP-090)</h4>
 <div class="paragraph">
-<p>Previous Notice (OPP-090) may be used to associate a notice to one or
-more immediately preceding notices. It is not intended to replace:</p>
+<p>Previous Notice (OPP-090) may be used to associate a notice to one or more
+immediately preceding TEDXML notices. It is also not intended to replace:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -6995,40 +7021,35 @@ more immediately preceding notices. It is not intended to replace:</p>
 <p>Previous Planning Identifier (BT-125), or</p>
 </li>
 <li>
-<p>Framework Notice Identifier (OPT-100).</p>
+<p>Framework Notice Identifier (OPT-100),</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>It is only foreseen for cases where no other option to refer to a previous notice exists.
-It may be useful when some notices for a Procedure have been published in TEDXML,
-and it is desired to publish following notices of the Procedure in eForms. This
-Business Term allows the notices to be associated despite the absence of Procedure ID in TEDXML.</p>
+<p>which should still be used even when referring to a TEDXML notice.</p>
 </div>
 <div class="paragraph">
-<p>A notice is referred to using either of the two identifiers:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>its notice identifier (UUID) concatenated with its version identifier (e.g. &lt;UUID&gt;-&lt;vv&gt;), or</p>
-</li>
-<li>
-<p>its Notice Publication ID (XXXXXX-YYYY).</p>
-</li>
-</ul>
+<p>Previous Notice (OPP-090) is only foreseen for cases where no other option
+to refer to a previous notice exists. It may be useful when some notices
+for a Procedure have been published in TEDXML (format which does not have
+a Procedure ID), and it is desired to publish following notices of the
+Procedure in eForms. This Business Term allows the notices to be associated
+despite the absence of Procedure ID in TEDXML.</p>
 </div>
 <div class="paragraph">
-<p>Previous Notice (OPP-090) applies to the whole notice, and not just a single lot.
-It may also be repeated to point to multiple previous notices when needed.</p>
+<p>A TEDXML notice is referred to using its Notice Publication ID (XXXXXX-YYYY).</p>
+</div>
+<div class="paragraph">
+<p>Previous Notice (OPP-090) applies to the whole notice, and not just a single
+lot. It may also be repeated to point to multiple previous notices when needed.</p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;cac:NoticeDocumentReference&gt;
-    &lt;cbc:ID schemeName="notice-id-ref"&gt;123e4567-e89b-12d3-a456-426614174000-06&lt;/cbc:ID&gt;
+    &lt;cbc:ID schemeName="ojs-notice-id"&gt;1624-2023&lt;/cbc:ID&gt;
 &lt;/cac:NoticeDocumentReference&gt;
 &lt;cac:NoticeDocumentReference&gt;
-    &lt;cbc:ID schemeName="notice-id-ref"&gt;33b03807-58ce-4eb2-aac2-25702d0ad624-06&lt;/cbc:ID&gt;
+    &lt;cbc:ID schemeName="ojs-notice-id"&gt;38976-2022&lt;/cbc:ID&gt;
 &lt;/cac:NoticeDocumentReference&gt;</code></pre>
 </div>
 </div>
@@ -9497,7 +9518,7 @@ including options and renewals.</p></td>
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;efac:NoticeResult&gt;
     &lt;cbc:TotalAmount currencyID="EUR"&gt;123456.00&lt;/cbc:TotalAmount&gt;
-    &lt;efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR"&gt;6000&lt;/efbc:OverallMaximumFrameworkContractsAmount&gt;
+    &lt;efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR"&gt;3400000&lt;/efbc:OverallMaximumFrameworkContractsAmount&gt;
     &lt;efac:GroupFramework&gt;
         &lt;efbc:GroupFrameworkMaximumValueAmount currencyID="EUR"&gt;1200000&lt;/efbc:GroupFrameworkMaximumValueAmount&gt;
         &lt;efac:TenderLot&gt;
@@ -16204,6 +16225,18 @@ general</strong></p></td>
 </div>
 <div class="sect2">
 <h3 id="linkingRolesSubrolesToOrganizationsSection"><a class="anchor" href="#linkingRolesSubrolesToOrganizationsSection"></a>10.6. Linking roles/subroles to organizations</h3>
+<div class="paragraph">
+<p>For the eForms technical implementation, it has been decided to keep the normalized approach for
+organisations to prevent unnecessary repetitions and their associated inconsistency risks.
+The denormalized approach of the UBL Standard has been kept and reduced to its minimum (i.e. use
+of references to the organisation or touchpoint involved) as it is associated to a context which
+helps differentiate various roles/subroles.
+The references to the organisation or its touchpoint is performed  using OPT-300-xxx or
+OPT-301-xxxx fields. As a rule of thumb, OPT-300-xxxx is associated to an organisation (i.e.
+identifier of the form ORG-XXXX) while OPT-301-xxxx is associated to an organisation or a touchoint
+(i.e. identifier of the form ORG-XXXX and TPO-XXXX respectively). Please note that exceptions may
+occur with business rules clarifications while the field has already been defined.</p>
+</div>
 <div class="sect3">
 <h4 id="_buyer"><a class="anchor" href="#_buyer"></a>10.6.1. Buyer</h4>
 <div class="sect4">
@@ -16327,7 +16360,7 @@ entity-activity, subset of main-activity</p></td>
     &lt;/cac:ContractingActivity&gt;
     &lt;cac:Party&gt;
         &lt;cac:PartyIdentification&gt;
-            &lt;!-- Reference (Technical ID) to the legal organization acting as a Buyer. --&gt;
+            &lt;!-- OPT-300-Procedure-Buyer: Reference (Technical ID) to the legal organization acting as a Buyer. --&gt;
             &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
         &lt;/cac:PartyIdentification&gt;
         &lt;cac:ServiceProviderParty&gt;
@@ -16335,7 +16368,7 @@ entity-activity, subset of main-activity</p></td>
             &lt;cbc:ServiceTypeCode listName="organisation-role"&gt;serv-prov&lt;/cbc:ServiceTypeCode&gt;
             &lt;cac:Party&gt;
                 &lt;cac:PartyIdentification&gt;
-                    &lt;!-- Reference (Technical ID) to the legal organization acting as a PSP. --&gt;
+                    &lt;!-- OPT-300-Procedure-SProvider: Reference (Technical ID) to the legal organization acting as a PSP. --&gt;
                     &lt;cbc:ID schemeName="organization"&gt;ORG-0005&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
             &lt;/cac:Party&gt;
@@ -16375,9 +16408,11 @@ done in the "Organizations" section.</p>
     &lt;efbc:ListedOnRegulatedMarketIndicator&gt;false&lt;/efbc:ListedOnRegulatedMarketIndicator&gt;
     &lt;efbc:NaturalPersonIndicator&gt;false&lt;/efbc:NaturalPersonIndicator&gt;
     &lt;efac:UltimateBeneficialOwner&gt;
+        &lt;!-- OPT-302-Organization: Reference (Technical ID) to the Utimate Beneficial Owner. --&gt;
         &lt;cbc:ID schemeName="ubo"&gt;UBO-0001&lt;/cbc:ID&gt;
     &lt;/efac:UltimateBeneficialOwner&gt;
     &lt;efac:UltimateBeneficialOwner&gt;
+        &lt;!-- OPT-302-Organization: Reference (Technical ID) to the Utimate Beneficial Owner. --&gt;
         &lt;cbc:ID schemeName="ubo"&gt;UBO-0002&lt;/cbc:ID&gt;
     &lt;/efac:UltimateBeneficialOwner&gt;
     &lt;efac:Company&gt;
@@ -16466,11 +16501,14 @@ associated subcontractor (ORG-0005):</p>
 <pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;efac:TenderingParty&gt;
     &lt;cbc:ID schemeName="tendering-party"&gt;TPA-0001&lt;/cbc:ID&gt;
     &lt;efac:Tenderer&gt;
+        &lt;!-- OPT-300-Tenderer --&gt;
         &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
     &lt;/efac:Tenderer&gt;
     &lt;efac:SubContractor&gt;
+        &lt;!-- OPT-301-Tenderer-SubCont --&gt;
         &lt;cbc:ID schemeName="organization"&gt;ORG-0005&lt;/cbc:ID&gt;
         &lt;efac:MainContractor&gt;
+            &lt;!-- OPT-301-Tenderer-MainCont --&gt;
             &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
         &lt;/efac:MainContractor&gt;
     &lt;/efac:SubContractor&gt;
@@ -16507,7 +16545,7 @@ to "true").</p>
     &lt;cbc:RankCode&gt;1&lt;/cbc:RankCode&gt;
     &lt;!-- Interrupted Mark-Up --&gt;
     &lt;efac:TenderingParty&gt;
-        &lt;!-- Reference to the tendering Party --&gt;
+        &lt;!-- OPT-310-Tender: Reference to the tendering Party --&gt;
         &lt;cbc:ID schemeName="tendering-party"&gt;TPA-0001&lt;/cbc:ID&gt;
     &lt;/efac:TenderingParty&gt;
     &lt;efac:TenderLot&gt;
@@ -16593,7 +16631,7 @@ the Buyer side.</p>
     &lt;cbc:ID schemeName="contract"&gt;CON-0001&lt;/cbc:ID&gt;
     &lt;!-- Interrupted Mark-Up --&gt;
     &lt;cac:SignatoryParty&gt;
-        &lt;!-- Reference to the Organization signing the contract --&gt;
+        &lt;!-- OPT-300-Contract-Signatory: Reference to the Organization signing the contract --&gt;
         &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
     &lt;/cac:SignatoryParty&gt;
     &lt;!-- Interrupted Mark-Up --&gt;
@@ -16616,13 +16654,13 @@ element. References shall be made to the legal person assuming the role:</p>
 <pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;efac:LotResult&gt;
     &lt;!-- Interrupted Mark-Up --&gt;
     &lt;cac:FinancingParty&gt;
-        &lt;!-- Reference to the organization financing the project --&gt;
+        &lt;!-- OPT-301-LotResult-Financing: Reference to the organization financing the project --&gt;
         &lt;cac:PartyIdentification&gt;
             &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
         &lt;/cac:PartyIdentification&gt;
     &lt;/cac:FinancingParty&gt;
     &lt;cac:PayerParty&gt;
-        &lt;!-- Reference to the organization performing payments --&gt;
+        &lt;!-- OPT-301-LotResult-Paying: Reference to the organization performing payments --&gt;
         &lt;cac:PartyIdentification&gt;
             &lt;cbc:ID schemeName="organization"&gt;ORG-0001&lt;/cbc:ID&gt;
         &lt;/cac:PartyIdentification&gt;
@@ -16677,7 +16715,7 @@ reporting of as many parties as needed.</p>
                 &lt;/cac:ExternalReference&gt;
             &lt;/cac:Attachment&gt;
             &lt;cac:IssuerParty&gt;
-                &lt;!-- Reference to the legal person --&gt;
+                &lt;!-- OPT-301-Lot-FiscalLegis: Reference to the legal person --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="organization"&gt;ORG-0007&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
@@ -16693,7 +16731,7 @@ reporting of as many parties as needed.</p>
                 &lt;/cac:ExternalReference&gt;
             &lt;/cac:Attachment&gt;
             &lt;cac:IssuerParty&gt;
-                &lt;!-- Reference to the legal person --&gt;
+                &lt;!-- OPT-301-Lot-EnvironLegis: Reference to the legal person --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="organization"&gt;ORG-0007&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
@@ -16709,7 +16747,7 @@ reporting of as many parties as needed.</p>
                 &lt;/cac:ExternalReference&gt;
             &lt;/cac:Attachment&gt;
             &lt;cac:IssuerParty&gt;
-                &lt;!-- Reference to the legal person --&gt;
+                &lt;!-- OPT-301-Lot-EmployLegis: Reference to the legal person --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="organization"&gt;ORG-0007&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
@@ -16736,27 +16774,25 @@ illustration purpose:</p>
     &lt;cac:TenderingTerms&gt;
         &lt;!-- Interrupted Mark-Up --&gt;
         &lt;cac:AdditionalInformationParty&gt;
-            &lt;!-- "Organization providing additional information on procurement procedure" --&gt;
+            &lt;!-- OPT-301-Lot-AddInfo: "Organization providing additional information on procurement procedure" --&gt;
             &lt;cac:PartyIdentification&gt;
                 &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0001&lt;/cbc:ID&gt;
             &lt;/cac:PartyIdentification&gt;
         &lt;/cac:AdditionalInformationParty&gt;
         &lt;cac:DocumentProviderParty&gt;
-            &lt;!-- "Organization providing offline access to procurement documents" --&gt;
+            &lt;!-- OPT-301-Lot-DocProvider: "Organization providing offline access to procurement documents" --&gt;
             &lt;cac:PartyIdentification&gt;
                 &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0001&lt;/cbc:ID&gt;
             &lt;/cac:PartyIdentification&gt;
         &lt;/cac:DocumentProviderParty&gt;
         &lt;cac:TenderRecipientParty&gt;
-            &lt;!-- "Organization Receiving Requests to participate" --&gt;
-            &lt;!-- "Organization Receiving Tenders" --&gt;
+            &lt;!-- OPT-301-Lot-TenderReceipt: "Organization Receiving Requests to participate" or "Organization Receiving Tenders" --&gt;
             &lt;cac:PartyIdentification&gt;
                 &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0001&lt;/cbc:ID&gt;
             &lt;/cac:PartyIdentification&gt;
         &lt;/cac:TenderRecipientParty&gt;
         &lt;cac:TenderEvaluationParty&gt;
-            &lt;!-- "Organization evaluating Requests to participate" --&gt;
-            &lt;!-- "Organization evaluating Tenders" --&gt;
+            &lt;!-- OPT-301-Lot-TenderEval: "Organization evaluating Requests to participate" or "Organization evaluating Tenders" --&gt;
             &lt;cac:PartyIdentification&gt;
                 &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0001&lt;/cbc:ID&gt;
             &lt;/cac:PartyIdentification&gt;
@@ -16765,19 +16801,19 @@ illustration purpose:</p>
         &lt;cac:AppealTerms&gt;
             &lt;!-- Interrupted Mark-Up --&gt;
             &lt;cac:AppealInformationParty&gt;
-                &lt;!-- Reference to the Organization or TouchPoint for further info on review --&gt;
+                &lt;!-- OPT-301-Lot-ReviewInfo: Reference to the Organization or TouchPoint for further info on review --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0001&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
             &lt;/cac:AppealInformationParty&gt;
             &lt;cac:AppealReceiverParty&gt;
-                &lt;!-- Reference to the Organization or TouchPoint for reviews --&gt;
+                &lt;!-- OPT-301-Lot-ReviewOrg: Reference to the Organization or TouchPoint for reviews --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0003&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
             &lt;/cac:AppealReceiverParty&gt;
             &lt;cac:MediationParty&gt;
-                &lt;!-- Reference to the Organization or TouchPoint for mediation --&gt;
+                &lt;!-- OPT-301-Lot-Mediator: Reference to the Organization or TouchPoint for mediation --&gt;
                 &lt;cac:PartyIdentification&gt;
                     &lt;cbc:ID schemeName="touchpoint"&gt;TPO-0005&lt;/cbc:ID&gt;
                 &lt;/cac:PartyIdentification&gt;
@@ -16831,8 +16867,8 @@ the first Change notice, the original notice,</p>
 </div>
 <div class="paragraph">
 <p>While changes may apply to notices of any form type, the Change notice
-Form Type and Notice Type values must respectively correspond to
-"change" and "corr". A change notice may only concern a single notice
+Form Type and Notice Type values must be identical to the ones of the
+original notice. A change notice may only concern a single notice
 and  contains all the information from that initial notice with applied
 changes in addition to the information on those changes.</p>
 </div>
@@ -16903,7 +16939,12 @@ root of the notice.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>There must exist at least one "<em>efac:Change</em>" element in the Change Notice.</p>
+<p>There must exist at least one "<em>efac:Change</em>" element in the Change Notice,
+except for the case of:
+* a <em>cancel notice</em> (i.e. Change Reason set to "cancel") where no "<em>efac:Change</em>"
+node is expected, and
+* an <em>intent to cancel</em> a lot/procedure (i.e. Change Reason set to "cancel-intent")
+where "<em>efac:Change</em>" node may be used to identify the lots.</p>
 </div>
 <div class="paragraph">
 <p>A change may cover one or more sections of a notice and the element used to
@@ -16969,7 +17010,8 @@ changes and their corresponding elements.</p>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Change Notice Version Identifier (BT-758)</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Reference to the notice being
 changed (a combination of the Notice Identifier (BT-701) and the Notice
-Version (BT-757))</p></td>
+Version (BT-757) for eForms notices only; or Publication ID of the notice being
+changed for eForms or TEDXML notices.)</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>1</strong></p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
 <div class="content">
@@ -17000,23 +17042,23 @@ procurement documents have changed</p></td>
 </div></div></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Change Previous Section Identifier (BT-13716)</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Identification of the
-changed sections</p></td>
-<td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>*</strong></p></td>
-<td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:Change/efbc:ChangedSectionIdentifier</code></pre>
-</div>
-</div></div></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Change Description (BT-141)</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Description of the changes</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>*</strong></p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:Change/efbc:ChangeDescription</code></pre>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Change Previous Section Identifier (BT-13716)</strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Identification of the
+changed sections</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>*</strong></p></td>
+<td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -17061,14 +17103,18 @@ well as information about changes to procurement documents:</p>
                     &lt;efac:Changes&gt;
                         &lt;efbc:ChangedNoticeIdentifier schemeName="notice-id-ref"&gt;755db7f6-6aa1-453b-9087-1df5f7725112-02&lt;/efbc:ChangedNoticeIdentifier&gt;
                         &lt;efac:Change&gt;
-                            &lt;efbc:ChangedSectionIdentifier&gt;LOT-0001&lt;/efbc:ChangedSectionIdentifier&gt;
                             &lt;efbc:ChangeDescription languageID="ENG"&gt;The changes have been applied to ...&lt;/efbc:ChangeDescription&gt;
+                            &lt;efac:ChangedSection&gt;
+                                &lt;efbc:ChangedSectionIdentifier&gt;LOT-0001&lt;/efbc:ChangedSectionIdentifier&gt;
+                            &lt;/efac:ChangedSection&gt;
                         &lt;/efac:Change&gt;
                         &lt;efac:Change&gt;
-                            &lt;efbc:ChangedSectionIdentifier&gt;LOT-0002&lt;/efbc:ChangedSectionIdentifier&gt;
                             &lt;efbc:ProcurementDocumentsChangeDate&gt;2019-10-24+01:00&lt;/efbc:ProcurementDocumentsChangeDate&gt;
                             &lt;efbc:ProcurementDocumentsChangeIndicator&gt;true&lt;/efbc:ProcurementDocumentsChangeIndicator&gt;
                             &lt;efbc:ChangeDescription languageID="ENG"&gt;Updated procurement documents&lt;/efbc:ChangeDescription&gt;
+                            &lt;efac:ChangedSection&gt;
+                                &lt;efbc:ChangedSectionIdentifier&gt;LOT-0002&lt;/efbc:ChangedSectionIdentifier&gt;
+                            &lt;/efac:ChangedSection&gt;
                         &lt;/efac:Change&gt;
                         &lt;efac:ChangeReason&gt;
                             &lt;cbc:ReasonCode listName="change-corrig-justification"&gt;update-add &lt;/cbc:ReasonCode&gt;
@@ -17111,17 +17157,6 @@ however appears during contract execution and applies to a CAN only.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Modification Previous Section Identifier (BT-1501)</strong></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">Identification of
-the modified sections</p></td>
-<td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>+</strong></p></td>
-<td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:Change/efbc:ChangedSectionIdentifier</code></pre>
-</div>
-</div></div></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Modification Description (BT-202)</strong></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Description of the modification</p></td>
 <td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>1</strong></p></td>
@@ -17150,6 +17185,17 @@ reasons expressed as text</p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:ChangeReason/efbc:ReasonDescription</code></pre>
+</div>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><strong>Modification Previous Section Identifier (BT-1501)</strong></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Identification of
+the modified sections</p></td>
+<td class="tableblock halign-center valign-middle"><p class="tableblock"><strong>+</strong></p></td>
+<td class="tableblock halign-left valign-middle"><div class="content"><div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-xpath hljs" data-lang="xpath">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</code></pre>
 </div>
 </div></div></td>
 </tr>
@@ -17189,10 +17235,16 @@ Modification notice using the contract technical identifier.</p>
 <pre class="highlightjs highlight"><code class="language-xml hljs" data-lang="xml">&lt;efac:ContractModification&gt;
     &lt;efbc:ChangedNoticeIdentifier&gt;755db7f6-6aa1-453b-9087-1df5f7725112-02&lt;/efbc:ChangedNoticeIdentifier&gt;
     &lt;efac:Change&gt;
-        &lt;efbc:ChangedSectionIdentifier&gt;CON-0001&lt;/efbc:ChangedSectionIdentifier&gt;
-        &lt;efbc:ChangedSectionIdentifier&gt;LOT-0001&lt;/efbc:ChangedSectionIdentifier&gt;
-        &lt;efbc:ChangedSectionIdentifier&gt;LOT-0003&lt;/efbc:ChangedSectionIdentifier&gt;
         &lt;efbc:ChangeDescription languageID="ENG"&gt;The scope of the procurement ...&lt;/efbc:ReasonDescription&gt;
+        &lt;efac:ChangedSection&gt;
+            &lt;efbc:ChangedSectionIdentifier&gt;CON-0001&lt;/efbc:ChangedSectionIdentifier&gt;
+        &lt;/efac:ChangedSection&gt;
+        &lt;efac:ChangedSection&gt;
+            &lt;efbc:ChangedSectionIdentifier&gt;LOT-0001&lt;/efbc:ChangedSectionIdentifier&gt;
+        &lt;/efac:ChangedSection&gt;
+        &lt;efac:ChangedSection&gt;
+            &lt;efbc:ChangedSectionIdentifier&gt;LOT-0003&lt;/efbc:ChangedSectionIdentifier&gt;
+        &lt;/efac:ChangedSection&gt;
     &lt;/efac:Change&gt;
     &lt;efac:ChangeReason&gt;
         &lt;cbc:ReasonCode listName="modification-justification"&gt;mod-cir&lt;/cbc:ReasonCode&gt;
@@ -17222,7 +17274,7 @@ the sectoral directive (i.e. directive 25).</p>
 a code from the codelist
 <a href="https://op.europa.eu/web/eu-vocabularies/at-dataset/-/resource/dataset/non-publication-justification">non-publication-justification</a>
 and a description. The field whose information publication shall be
-withhold is identified using a code as specified in the following
+withheld is identified using a code as specified in the following
 subsections.</p>
 </div>
 <div class="paragraph">
@@ -18684,7 +18736,7 @@ fields.</p>
                                 &lt;efbc:PublicationDate&gt;2022-04-01+01:00&lt;/efbc:PublicationDate&gt;
                             &lt;/efac:FieldsPrivacy&gt;
                             &lt;!-- # UNPUB-53 : Award Criterion Number Threshold (BT-5423) publication will be delayed --&gt;
-                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-pass&lt;/efbc:ParameterCode&gt;
+                            &lt;efbc:ParameterCode listName="number-threshold"&gt;min-score&lt;/efbc:ParameterCode&gt;
                             &lt;efbc:ParameterNumeric&gt;50&lt;/efbc:ParameterNumeric&gt;
                         &lt;/efac:AwardCriterionParameter&gt;
                     &lt;/efext:EformsExtension&gt;
@@ -18746,7 +18798,7 @@ accessed February 11<sup>th</sup>, 2020.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="identifiersAndReferencesSection"><a class="anchor" href="#identifiersAndReferencesSection"></a>15. Identifiers and References</h2>
+<h2 id="identifiersAndReferencesSection"><a class="anchor" href="#identifiersAndReferencesSection"></a>15. Identifiers, References and Pointless Business Terms</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In the sections below, the different identifiers are listed.</p>
@@ -19095,7 +19147,7 @@ constitute a Group of lot</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">BT-1501(n)</p></td>
-<td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">Modification Previous Notice Section Identifier</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="2"><p class="tableblock">Modification Previous Notice Identifier</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Reference
 to the CAN (eforms notice only) that announced the contract now subject
 to modification, using a combination of the Notice Identifier (BT-701)
@@ -19167,6 +19219,13 @@ being changed (eForms notices only).</p></td>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Publication ID of the notice being changed. eForms or TEDXML
 notices.</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">ojs-notice-id</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">XXXXXXXX-YYYY</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">OPP-090</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Previous Notice</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Publication ID of the previous (TED XML) notice.</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">ojs-notice-id</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">XXXXXXXX-YYYY</p></td>
 </tr>
@@ -19704,7 +19763,14 @@ with a "Change".</em></p></td>
 </div>
 </div>
 <div class="sect2">
-<h3 id="pointlessDueToDesignSection"><a class="anchor" href="#pointlessDueToDesignSection"></a>15.3. Pointless due to design</h3>
+<h3 id="pointlessDueToDesignSection"><a class="anchor" href="#pointlessDueToDesignSection"></a>15.3. Pointless Business Terms due to design</h3>
+<div class="paragraph">
+<p>Structural differences between the eForms Regulation Annex and UBL
+(e.g. normalized vs denormalized data) make some Business Terms not
+necessary and not possible to represent.
+Additionally, some indicators based rules make those indicators and
+their associated Business Terms useless.</p>
+</div>
 <table id="pointlessBTsDueToTechnicalDesignTable" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 41. Pointless BTs due to technical design</caption>
 <colgroup>
@@ -19743,16 +19809,6 @@ with a "Change".</em></p></td>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">BT-1374</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Funds Lot Identifier</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">BT-137</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">BT-330</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Group Identifier</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">BT-137</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">BT-1375</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Group Lot Identifier</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">BT-137</p></td>
 </tr>
 <tr>
@@ -19825,6 +19881,25 @@ elements at dedicated places within the XML (cf. <a href="parties.html#linkingRo
 <td class="tableblock halign-left valign-top"><p class="tableblock">BT-13715</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Additional Information Lot Identifier</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">BT-137</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BT-53</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Options</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not represented in UBL. Not required as BT-54 is mandatory
+when BT-53 is "Yes". If BT-54 is not there, then BT-53 is "No"</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BT-724</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tool Atypical</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">When dealing with an atypical tool, the URL where
+the tool may be found (BT-124) is mandatory, else it is not allowed. The
+presence of BT-124 is sufficient to detect whether the tool is atypical or not.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BT-778</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Framework Maximum Participants</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Not represented in UBL. Not required,
+if BT-113 is mandatory when BT-778 is "Yes". If BT-113 is not there, then BT-778 is "No"</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">BT-5561</p></td>

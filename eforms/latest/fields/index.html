@@ -77,7 +77,7 @@
     </nav>
 </header>
 <div class="body">
-<div class="nav-container" data-component="eforms" data-version="1.5">
+<div class="nav-container" data-component="eforms" data-version="1.8">
   <aside class="nav">
     <div class="panels">
 <div class="nav-panel-menu is-active" data-panel="menu">
@@ -195,6 +195,9 @@
     <a class="nav-link" href="../translations/index.html">Translations</a>
   </li>
   <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../schematrons/index.html">Schematron</a>
+  </li>
+  <li class="nav-item" data-depth="1">
     <button class="nav-item-toggle"></button>
     <a class="nav-link" href="../efx/index.html">EFX grammar</a>
 <ul class="nav-list">
@@ -271,14 +274,26 @@
 <div class="nav-panel-explore" data-panel="explore">
       <div class="context">
           <span class="title">eForms SDK</span>
-          <span class="version">1.5.1</span>
+          <span class="version">1.8.0</span>
       </div>
   <ul class="components">
       <li class="component is-current">
         <a class="title" href="../index.html">eForms SDK</a>
         <ul class="versions">
+            <li class="version">
+              <a href="../../1.9/index.html">1.9.0</a>
+            </li>
             <li class="version is-current is-latest">
-              <a href="../index.html">1.5.1</a>
+              <a href="../index.html">1.8.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.7/index.html">1.7.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.6/index.html">1.6.0</a>
+            </li>
+            <li class="version">
+              <a href="../../1.5/index.html">1.5.1</a>
             </li>
             <li class="version">
               <a href="../../1.4/index.html">1.4.1</a>
@@ -301,7 +316,7 @@
         <a class="title" href="../../../EPO/latest/index.html">eProcurement Ontology</a>
         <ul class="versions">
             <li class="version">
-              <a href="../../../EPO/3.1.1/index.html">3.1.1 ~dev</a>
+              <a href="../../../EPO/4.0.0/index.html">4.0.0-rc.1</a>
             </li>
             <li class="version is-latest">
               <a href="../../../EPO/latest/index.html">3.1.0</a>
@@ -316,7 +331,7 @@
               <a href="../../../EPO/2.0.0/index.html">2.0.0</a>
             </li>
             <li class="version">
-              <a href="../../../EPO/1.0.0/index.html">1.0.0</a>
+              <a href="../../../EPO/1/index.html">1.0.0</a>
             </li>
         </ul>
       </li>
@@ -324,7 +339,13 @@
         <a class="title" href="../../../ESPD-EDM/latest/index.html">ESPD EDM</a>
         <ul class="versions">
             <li class="version is-latest">
-              <a href="../../../ESPD-EDM/latest/index.html">3.1.0</a>
+              <a href="../../../ESPD-EDM/latest/index.html">3.3.0</a>
+            </li>
+            <li class="version">
+              <a href="../../../ESPD-EDM/3.2.0/index.html">3.2.0</a>
+            </li>
+            <li class="version">
+              <a href="../../../ESPD-EDM/3.1.0/index.html">3.1.0</a>
             </li>
             <li class="version">
               <a href="../../../ESPD-EDM/3.0.1/index.html">3.0.1</a>
@@ -358,9 +379,13 @@
   </ul>
 </nav>
 <div class="page-versions">
-  <button class="version-menu-toggle" title="Show other versions of page">1.5.1</button>
+  <button class="version-menu-toggle" title="Show other versions of page">1.8.0</button>
   <div class="version-menu">
-    <a class="version is-current" href="index.html">1.5.1</a>
+    <a class="version" href="../../1.9/fields/index.html">1.9.0</a>
+    <a class="version is-current" href="index.html">1.8.0</a>
+    <a class="version" href="../../1.7/fields/index.html">1.7.0</a>
+    <a class="version" href="../../1.6/fields/index.html">1.6.0</a>
+    <a class="version" href="../../1.5/fields/index.html">1.5.1</a>
     <a class="version" href="../../1.4/fields/index.html">1.4.1</a>
     <a class="version" href="../../1.3/fields/index.html">1.3.2</a>
     <a class="version" href="../../1.2/fields/index.html">1.2.1</a>
@@ -517,13 +542,14 @@ subset of those fields.</p>
     "btId" : "BT-01", <i class="conum" data-value="4"></i><b>(4)</b>
     "xpathAbsolute" : "/*/cbc:RegulatoryDomain", <i class="conum" data-value="5"></i><b>(5)</b>
     "xpathRelative" : "cbc:RegulatoryDomain", <i class="conum" data-value="6"></i><b>(6)</b>
-    "type" : "code", <i class="conum" data-value="7"></i><b>(7)</b>
-    "legalType" : "CODE", <i class="conum" data-value="8"></i><b>(8)</b>
-    "maxLength" : 400, <i class="conum" data-value="9"></i><b>(9)</b>
-    "repeatable" : { <i class="conum" data-value="10"></i><b>(10)</b>
+    "xsdSequenceOrder" : [ { "cbc:RegulatoryDomain" : 18 } ], <i class="conum" data-value="7"></i><b>(7)</b>
+    "type" : "code", <i class="conum" data-value="8"></i><b>(8)</b>
+    "legalType" : "CODE", <i class="conum" data-value="9"></i><b>(9)</b>
+    "maxLength" : 400, <i class="conum" data-value="10"></i><b>(10)</b>
+    "repeatable" : { <i class="conum" data-value="11"></i><b>(11)</b>
       "value" : false
     },
-    "codeList" : { <i class="conum" data-value="11"></i><b>(11)</b>
+    "codeList" : { <i class="conum" data-value="12"></i><b>(12)</b>
       "value" : {
         "id" : "legal-basis",
         "type" : "flat"
@@ -536,14 +562,15 @@ subset of those fields.</p>
     "btId" : "BT-137",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID",
     "xpathRelative" : "cbc:ID",
+    "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
-    "idScheme" : "LOT", <i class="conum" data-value="12"></i><b>(12)</b>
+    "idScheme" : "LOT", <i class="conum" data-value="13"></i><b>(13)</b>
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
     },
-    "forbidden" : { <i class="conum" data-value="13"></i><b>(13)</b>
+    "forbidden" : { <i class="conum" data-value="14"></i><b>(14)</b>
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
@@ -552,7 +579,7 @@ subset of those fields.</p>
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : { <i class="conum" data-value="14"></i><b>(14)</b>
+    "mandatory" : { <i class="conum" data-value="15"></i><b>(15)</b>
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
@@ -561,7 +588,7 @@ subset of those fields.</p>
         "severity" : "ERROR"
       } ]
     },
-    "pattern" : { <i class="conum" data-value="15"></i><b>(15)</b>
+    "pattern" : { <i class="conum" data-value="16"></i><b>(16)</b>
       "value" : "^LOT-\\d{4}$",
       "severity" : "ERROR"
     }
@@ -572,8 +599,9 @@ subset of those fields.</p>
     "btId" : "BT-13714",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID",
     "xpathRelative" : "efac:TenderLot/cbc:ID",
+    "xsdSequenceOrder" : [ { "efac:TenderLot" : 14 }, { "cbc:ID" : 1 } ],
     "type" : "id-ref",
-    "idSchemes" : [ "LOT", "GLO" ], <i class="conum" data-value="16"></i><b>(16)</b>
+    "idSchemes" : [ "LOT", "GLO" ], <i class="conum" data-value="17"></i><b>(17)</b>
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -621,43 +649,47 @@ subset of those fields.</p>
 </tr>
 <tr>
 <td><i class="conum" data-value="7"></i><b>7</b></td>
-<td>Technical data type of the field.</td>
+<td>Position of each XML element relative to its siblings. <a href="#xsdSequenceOrder">See below for details</a>.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="8"></i><b>8</b></td>
-<td>Data type of the business term, as indicated in the eForms Regulation.</td>
+<td>Technical data type of the field.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="9"></i><b>9</b></td>
-<td>Maximum number of characters allowed in the value of the field, optional.</td>
+<td>Data type of the business term, as indicated in the eForms Regulation.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="10"></i><b>10</b></td>
-<td>Indicates if the field can appear more than once inside its container</td>
+<td>Maximum number of characters allowed in the value of the field, optional.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="11"></i><b>11</b></td>
+<td>Indicates if the field can appear more than once inside its container</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="12"></i><b>12</b></td>
 <td>Identifier of the code list from which the field value must belong.
 Applicable only for fields of type "code" or "internal-code"</td>
 </tr>
 <tr>
-<td><i class="conum" data-value="12"></i><b>12</b></td>
+<td><i class="conum" data-value="13"></i><b>13</b></td>
 <td>Identifier scheme used by a field with <code>"type" : "id"</code>.</td>
 </tr>
 <tr>
-<td><i class="conum" data-value="13"></i><b>13</b></td>
+<td><i class="conum" data-value="14"></i><b>14</b></td>
 <td>This property provides information on when a field&#8217;s presence is forbidden.</td>
 </tr>
 <tr>
-<td><i class="conum" data-value="14"></i><b>14</b></td>
+<td><i class="conum" data-value="15"></i><b>15</b></td>
 <td>This property provides information on when a field&#8217;s value is mandatory.</td>
 </tr>
 <tr>
-<td><i class="conum" data-value="15"></i><b>15</b></td>
+<td><i class="conum" data-value="16"></i><b>16</b></td>
 <td>A RegEx pattern the field&#8217;s value must match.</td>
 </tr>
 <tr>
-<td><i class="conum" data-value="16"></i><b>16</b></td>
+<td><i class="conum" data-value="17"></i><b>17</b></td>
 <td>Array indicating the valid <code>idScheme</code> values which this identifier reference field (<code>"type" : "id-ref"</code>) can reference.</td>
 </tr>
 </table>
@@ -725,10 +757,26 @@ Applicable only for fields of type "code" or "internal-code"</td>
 </tr>
 <tr>
 <td class="hdlist1">
+<code id="xsdSequenceOrder">xsdSequenceOrder</code>
+</td>
+<td class="hdlist2">
+<p>This indicates, for each XML element that is part of <code>xpathRelative</code>, the position that this element should have relative to its siblings in order to have an XML instance valid against the XML Schema. This information is extracted from the definition of the corresponding complex type in the XSD files.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
 <code>type</code>
 </td>
 <td class="hdlist2">
 <p>The data type of the field. <a href="#data-types">See Field data types</a>.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<code>presetValue</code>
+</td>
+<td class="hdlist2">
+<p>The value used to pre-fill a field. This property is always a string, but the value should be converted to the same type as the field. The value "{NOW}" corresponds to the current date or time.</p>
 </td>
 </tr>
 <tr>
@@ -753,6 +801,14 @@ Applicable only for fields of type "code" or "internal-code"</td>
 </td>
 <td class="hdlist2">
 <p>Applicable only to fields of type <code>id</code>. Indicates the identifier scheme for this <code>id</code> field (e.g. "TPO" for Touch Point).</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<code>schemeName</code>
+</td>
+<td class="hdlist2">
+<p>Applicable only to fields of type <code>id</code>. Indicates the value that should be indicated for this field in the <code>schemeName</code> attribute in the XML.</p>
 </td>
 </tr>
 <tr>
@@ -1252,7 +1308,7 @@ When generating the notice XML, set the <code>@listName</code> XML attribute to 
 <code>measure</code>
 </td>
 <td class="hdlist2">
-<p>numerical value associated with a measurement unit</p>
+<p>duration expressed using a numerical value and a unit</p>
 </td>
 </tr>
 <tr>
